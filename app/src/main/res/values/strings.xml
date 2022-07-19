@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Personal NoteBook</string>
+    
+    <!--Main Activity-->
+    <string name="no_note_available">No note available</string>
+    
 </resources>

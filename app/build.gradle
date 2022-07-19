@@ -1,9 +1,20 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-android'
 }
 
 android {
+
+    buildFeatures {
+
+        dataBinding = true
+
+        // for view binding:
+        viewBinding = true
+    }
+
     compileSdk 32
 
     defaultConfig {
